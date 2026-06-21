@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت من</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>به سایت من خوش آمدید</h1>
+        <!-- دکمه سه نقطه -->
+        <div class="menu-toggle" id="menuToggle">
+            &#8230; <!-- کاراکتر سه نقطه -->
+        </div>
+    </header>
+
+    <nav class="sidebar-menu" id="sidebarMenu">
+        <ul>
+            <li><a href="#profile">پروفایل</a></li>
+            <li><a href="#posts">نوشته‌ها</a></li>
+            <li><a href="#photos">عکس‌ها</a></li>
+            <li><a href="#tools">ابزارها</a></li>
+            <li><a href="#settings">تنظیمات</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- محتوای اصلی سایت در اینجا قرار می‌گیرد -->
+        <section id="profile">
+            <h2>پروفایل</h2>
+            <p>اینجا بخش پروفایل شماست.</p>
+            <!-- محتوای پروفایل -->
+        </section>
+        <section id="posts">
+            <h2>نوشته‌ها</h2>
+            <p>اینجا بخش نوشته‌های شماست.</p>
+            <!-- محتوای نوشته‌ها -->
+        </section>
+        <section id="photos">
+            <h2>عکس‌ها</h2>
+            <p>اینجا بخش عکس‌های شماست.</p>
+            <!-- محتوای عکس‌ها -->
+        </section>
+        <section id="tools">
+            <h2>ابزارها</h2>
+            <p>اینجا بخش ابزارهاست.</p>
+            <!-- محتوای ابزارها -->
+        </section>
+        <section id="settings">
+            <h2>تنظیمات</h2>
+            <p>اینجا بخش تنظیمات شماست.</p>
+            <!-- محتوای تنظیمات -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
